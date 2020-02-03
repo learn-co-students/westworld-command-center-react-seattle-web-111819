@@ -84,11 +84,12 @@ class App extends Component {
           onSelect={this.onSelect}
         />
         <Headquarters 
-          hosts={hosts} 
-          areas={areas}
-          logs={logs}
-          selected={selected}
-          activateAll={activateAll}
+          // hosts={hosts} 
+          // areas={areas}
+          // logs={logs}
+          // selected={selected}
+          // activateAll={activateAll}
+          {...this.state}
           onSelect={this.onSelect}
           onRelocate={this.onRelocate}
           onActivate={this.onActivate}

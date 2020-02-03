@@ -8,7 +8,6 @@ import LogPanel from './LogPanel'
 // Converted to a functional component
 const Headquarters = ({hosts, areas, logs, selected, activateAll, onSelect, onRelocate, onActivate, onActivateAll}) => {
 
-
   return (
     <Grid celled='internally'>
       <Grid.Column width={8}>
