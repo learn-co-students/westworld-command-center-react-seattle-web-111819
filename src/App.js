@@ -74,7 +74,7 @@ class App extends Component {
   }
 
   render(){
-    let {areas, hosts, logs, selected, activateAll} = this.state
+    let {hosts, areas, selected} = this.state
     return (
       <Segment id='app'>
         <WestworldMap 
